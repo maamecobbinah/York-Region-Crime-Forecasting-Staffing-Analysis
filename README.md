@@ -70,3 +70,35 @@ York Region total crime forecast
 Selected district forecast
 
 4 District call-for-service demand forecast
+
+### Data Description
+#### 3.1 Calls-for-Service Dataset (2022–2024)
+This dataset contains all recorded calls made to York Regional Police requesting assistance.
+| **Column Name** | **Description** |
+|-----------------|-----------------|
+| **Call Date**   | Date of the call (YYYYMMDD format). |
+| **Call Time**   | Time of call (HH:MM:SS). |
+| **District**    | Police district (1–5 or “~”). |
+| **Sector**      | Sector within district (11–52 or “~”). |
+| **Call Type**   | Crime or incident type (e.g., PROPERTY DAMAGE, THEFT OF VEHICLE, FIRE). |
+
+Use Cases:
+-**Forecasting call volume**
+-**Identifying crime trends**
+-**District-level analysis**
+
+#### 3.2 4 District Staffing Exceptions (2022–2024)
+This dataset lists all exceptions affecting officer availability in 4 District.
+| **Column Name**        | **Description** |
+|------------------------|-----------------|
+| **station_name**       | Platoon or unit (e.g., 4 District C Platoon). |
+| **badge_number**       | Unique officer identifier. |
+| **exception_date**     | Date of exception (YYYYMMDD). |
+| **exception_start_time** | Time exception began. |
+| **hours**              | Duration of exception. |
+| **exception_group**    | Category (Sick, Stat Holiday, Vacation, etc.). |
+| **exception_source**   | Origin (e.g., Voluntary Time Off, Sick). |
+
+Use Cases:
+-**Forecasting high-risk scheduling periods**
+-**Matching staffing shortages with high-demand crime days**
