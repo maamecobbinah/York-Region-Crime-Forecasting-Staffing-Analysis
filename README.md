@@ -15,6 +15,7 @@ Days of the year where officer availability is lowest, and
 Whether these coincide with days of high call demand.
 Use the results to highlight operational risks and staffing challenges.
 
+
 ##  Approach
 This project follows a structured analytical workflow:
 Data → Feature Engineering → EDA → Modeling → Evaluation → Insights
@@ -71,6 +72,7 @@ Selected district forecast
 
 4 District call-for-service demand forecast
 
+
 ## Data Description
 #### 3.1 Calls-for-Service Dataset (2022–2024)
 This dataset contains all recorded calls made to York Regional Police requesting assistance.
@@ -103,4 +105,25 @@ Use Cases:
 -**Forecasting high-risk scheduling periods**
 -**Matching staffing shortages with high-demand crime days**
 
+
 ## Exploratory Data Analysis (EDA)
+During EDA we found the following 
+The Calls-for-Service for crime shows steady growth in police demand across York Region from 2022 to 2024. While the region saw a strong increase from 2022 to 2023, growth slowed significantly in the 2023–2024 period.
+#### Key Insights (High-Level)
+- **Total calls increased by +11% from 2022→2023**, showing strong growth.
+- **Growth slowed to only +1% from 2023→2024**, indicating call volumes are starting to stabilize after a large jump the previous year.
+- **District 1 is driving the most growth overall**, with a **+20% increase from 2022→2024** — the largest in the region.
+- **District 5 also shows strong multi-year growth** (+15% over two years).
+- **District 4 has the highest total call volume**, even though its YoY growth flattened in 2024 (–2% from 2023→2024).
+- **Districts 2 and 3 show moderate, stable increases** with low-risk growth patterns.
+- The **“~” category is inconsistent** and represents a very small portion of the data.
+| District | 2022 Total Calls | 2023 Total Calls | 2024 Total Calls | Overall Total | 2022→2023 YoY | 2022→2024 YoY | 2023→2024 YoY |
+|---------|------------------|------------------|------------------|----------------|----------------|----------------|----------------|
+| 1       | 32,735           | 37,701           | 39,343           | 109,779        | **15%**        | **20%**        | 4%             |
+| 2       | 32,180           | 35,268           | 35,011           | 102,459        | 10%            | 9%             | -1%            |
+| 3       | 9,034            | 9,837            | 9,939            | 28,810         | 9%             | 10%            | 1%             |
+| 4       | 43,688           | 48,177           | 47,358           | 139,223        | 10%            | 8%             | -2%            |
+| 5       | 29,478           | 32,678           | 33,902           | 96,058         | 11%            | **15%**        | 4%             |
+| ~       | 1,227            | 1,042            | 1,263            | 3,532          | -15%           | 3%             | 21%            |
+| **Total** | **148,342**      | **164,703**      | **166,816**      | **479,861**    | **11%**        | **12%**        | **1%**         |
+
