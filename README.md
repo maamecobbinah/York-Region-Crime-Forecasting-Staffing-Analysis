@@ -128,3 +128,37 @@ The Calls-for-Service for crime shows steady growth in police demand across York
 | ~       | 1,227            | 1,042            | 1,263            | 3,532          | -15%           | 3%             | 21%            |
 | **Total** | **148,342**      | **164,703**      | **166,816**      | **479,861**    | **11%**        | **12%**        | **1%**         |
 
+
+#### Additional Trends Observed
+Along with district-level growth, several seasonal, weekly, and hourly patterns appear in the Calls-for-Service data.
+##### Monthly Trends
+- **May to October are the peak months for calls.**
+- **August receives the highest volume, averaging ~43,434 calls.**
+- **There is a noticeable dip in September, followed by a rebound in October.**
+<img width="1035" height="493" alt="image" src="https://github.com/user-attachments/assets/f327a28c-65f4-43a6-87c0-3fa66e847fbe" />
+
+##### Day-of-Week Trends
+- **Thursday and Friday have the highest call volumes, each exceeding 72,000 calls.**
+- **Friday is the single highest day, with approximately 73,000 calls.**
+<img width="1015" height="503" alt="image" src="https://github.com/user-attachments/assets/d548f220-524e-42a0-b1c0-582c84bb870c" />
+
+##### Time-of-Day Trends
+- **Calls gradually rise through the morning and peak between 12 PM and 5 PM.**
+- **3 PM is the busiest hour of the day, showing the highest call activity.**
+<img width="1012" height="501" alt="image" src="https://github.com/user-attachments/assets/ecb2a7d4-7b66-479a-92e5-d65b03ee08bc" />
+
+##### Sector Trends
+- **Sector 22 and Sector 42 drive the most calls region-wide, each averaging over 36,000 calls.**
+These sectors represent key operational hotspots.
+<img width="997" height="722" alt="image" src="https://github.com/user-attachments/assets/bdadf9a6-ea2a-491c-a716-f83f779cac64" />
+
+
+##### Top Call Types
+**The top 5 most common call categories are:**
+- **Welfare Checks**
+- **Self-Reported Accidents**
+- **Assisting a Police Officer or Other Agency**
+- **Motor Vehicle Injury (MVC Injury)**
+- **Ambulance Assistance**
+These call types dominate activity levels and reflect where frontline demand is highest.
+<img width="1006" height="772" alt="image" src="https://github.com/user-attachments/assets/fc12e7a9-fa86-4d6a-b1f4-9dc8b0a4e851" />
