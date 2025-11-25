@@ -60,8 +60,13 @@ Models to be Evaluated
 
 ##### Model Selection Strategy
 Train all four models on the crime time series.
+
 Evaluate performance on a validation period.
+
 Select the best-performing model for:
+
 York Region total crime forecast
+
 Selected district forecast
+
 4 District call-for-service demand forecast
