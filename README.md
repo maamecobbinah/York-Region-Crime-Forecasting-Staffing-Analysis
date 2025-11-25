@@ -5,7 +5,7 @@ The Deputy Chief of the Community Safety Branch is seeking insights into future 
 #### A. Crime Forecasting for York Region
 Forecast total crime trends for York Region and for one selected Police District.
 Identify the district most at risk of a future increase in crime and explain why.
-Integrate one external public dataset (not provided) into the forecasting model—representing external factors that may influence crime (e.g., weather, unemployment, population growth).
+identify  external factors that may influence crime (e.g., weather, unemployment, population growth).
 
 #### B. Staffing & Scheduling Forecast for 4 District
 Forecast future calls-for-service demand specifically for 4 District (Vaughan).
@@ -71,7 +71,7 @@ Selected district forecast
 
 4 District call-for-service demand forecast
 
-### Data Description
+## Data Description
 #### 3.1 Calls-for-Service Dataset (2022–2024)
 This dataset contains all recorded calls made to York Regional Police requesting assistance.
 | **Column Name** | **Description** |
@@ -102,3 +102,5 @@ This dataset lists all exceptions affecting officer availability in 4 District.
 Use Cases:
 -**Forecasting high-risk scheduling periods**
 -**Matching staffing shortages with high-demand crime days**
+
+## Exploratory Data Analysis (EDA)
