@@ -117,6 +117,7 @@ The Calls-for-Service for crime shows steady growth in police demand across York
 - **District 4 has the highest total call volume**, even though its YoY growth flattened in 2024 (–2% from 2023→2024).
 - **Districts 2 and 3 show moderate, stable increases** with low-risk growth patterns.
 - The **“~” category is inconsistent** and represents a very small portion of the data.
+  
 | District | 2022 Total Calls | 2023 Total Calls | 2024 Total Calls | Overall Total | 2022→2023 YoY | 2022→2024 YoY | 2023→2024 YoY |
 |---------|------------------|------------------|------------------|----------------|----------------|----------------|----------------|
 | 1       | 32,735           | 37,701           | 39,343           | 109,779        | **15%**        | **20%**        | 4%             |
