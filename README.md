@@ -49,20 +49,16 @@ Daily officer availability
 #### 2.2 Forecasting Modeling Techniques
 To ensure robust forecasting, I will train multiple models and compare their performance using metrics such as RMSE, MAE, and MAPE.
 Models to be Evaluated
-Holt-Winters (Triple Exponential Smoothing)
-Captures trend + seasonality
-Strong baseline for time series with clear patterns
-SARIMA (Seasonal ARIMA)
-Handles seasonality, autocorrelation, and differencing
-Well-suited for daily or monthly crime patterns
-VAR (Vector Auto Regression)
-Allows multi-variate forecasting
-Useful when integrating external features (e.g., weather, unemployment)
-Deep Learning Model (Transformer-based Time Series Forecasting)
-Temporal Fusion Transformer (TFT)
+- **Holt–Winters (Triple Exponential Smoothing):** Captures trend + seasonality  
+  - Strong baseline for time series with clear patterns
+- **SARIMA (Seasonal ARIMA):** Handles seasonality, autocorrelation, and differencing  
+  - Well-suited for daily or monthly crime patterns
+- **VAR (Vector Auto Regression):** Allows multi-variate forecasting  
+  - Useful when integrating external features (e.g., weather, unemployment)
+- **Deep Learning Model (Transformer-based Time Series Forecasting):** Temporal Fusion Transformer (TFT)
 
-##### I will select one Transformer-style model to compare against the statistical baselines.
-Model Selection Strategy
+
+##### Model Selection Strategy
 Train all four models on the crime time series.
 Evaluate performance on a validation period.
 Select the best-performing model for:
