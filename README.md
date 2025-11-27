@@ -54,9 +54,9 @@ Models to be Evaluated
   - Strong baseline for time series with clear patterns
 - **SARIMA (Seasonal ARIMA):** Handles seasonality, autocorrelation, and differencing  
   - Well-suited for daily or monthly crime patterns
-- **VAR (Vector Auto Regression):** Allows multi-variate forecasting  
-  - Useful when integrating external features (e.g., weather, unemployment)
-- **Deep Learning Model (Transformer-based Time Series Forecasting):** Temporal Fusion Transformer (TFT)
+- **Grid Search SARIMA:** Allows multi-variate forecasting  , handles seasonality, autocorrelation 
+  - Useful when integrating external features (e.g., unemployment and event data)
+- **Gradient Boosting Regression Forecaster:** 
 
 
 ##### Model Selection Strategy
