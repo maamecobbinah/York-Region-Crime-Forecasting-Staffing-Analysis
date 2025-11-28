@@ -166,7 +166,7 @@ These call types dominate activity levels and reflect where frontline demand is 
 
 
 ##  Results
-## Model Performance Explanation
+### Model Performance Explanation
 
 To evaluate the forecasting models, three key error metrics were compared:
 
@@ -179,7 +179,7 @@ Across all models tested, **Grid Search SARIMAX** delivered the most balanced an
 Other models such as Gradient Boosting and Basic SARIMAX performed reasonably, but did not match the combined error reduction achieved by the optimized SARIMAX model. Prophet showed a low MAE but suffered from a very high MAPE (40%), indicating poor percentage-based accuracy and an inability to capture the true scale of the data.
 
 Overall, **Grid Search SARIMAX was selected as the final forecasting model** because it consistently outperformed alternatives across the most important error metrics and provided the most stable and accurate predictions for the crime data.
-## Forecast Model Performance Comparison
+#### Forecast Model Performance Comparison
 
 | Model                       | MAPE    | RMSE   | MAE   |
 |-----------------------------|---------|--------|-------|
