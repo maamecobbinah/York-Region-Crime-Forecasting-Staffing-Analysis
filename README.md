@@ -56,11 +56,12 @@ Models to be Evaluated
   - Well-suited for daily or monthly crime patterns
 - **Grid Search SARIMA:** Allows multi-variate forecasting  , handles seasonality, autocorrelation 
   - Useful when integrating external features (e.g., unemployment and event data)
+- **Prophet Model**
 - **Gradient Boosting Regression Forecaster:** 
 
 
 ##### Model Selection Strategy
-Train all four models on the crime time series.
+Train all 5 models on the crime time series.
 
 Evaluate performance on a validation period.
 
@@ -165,6 +166,28 @@ These call types dominate activity levels and reflect where frontline demand is 
 
 
 ##  Results
+## Model Performance Explanation
+
+To evaluate the forecasting models, three key error metrics were compared:
+
+- **MAPE (Mean Absolute Percentage Error):** Measures percentage accuracy. Lower values indicate more accurate predictions relative to the true scale of the data.
+- **RMSE (Root Mean Squared Error):** Penalizes large errors more heavily. Lower values indicate better handling of large deviations.
+- **MAE (Mean Absolute Error):** Measures the average magnitude of errors. Lower values indicate more consistent accuracy.
+
+Across all models tested, **Grid Search SARIMAX** delivered the most balanced and reliable performance. It achieved the **lowest MAPE (7.26%)** and **lowest RMSE (14.22)**, showing strong overall accuracy and the smallest large-error deviations. Its MAE (31.89) was also competitive and within an acceptable range.
+
+Other models such as Gradient Boosting and Basic SARIMAX performed reasonably, but did not match the combined error reduction achieved by the optimized SARIMAX model. Prophet showed a low MAE but suffered from a very high MAPE (40%), indicating poor percentage-based accuracy and an inability to capture the true scale of the data.
+
+Overall, **Grid Search SARIMAX was selected as the final forecasting model** because it consistently outperformed alternatives across the most important error metrics and provided the most stable and accurate predictions for the crime data.
+## Forecast Model Performance Comparison
+
+| Model                       | MAPE    | RMSE   | MAE   |
+|-----------------------------|---------|--------|-------|
+| **Grid Search SARIMAX**     | **7.26%** | **14.22** | **31.89** |
+| Gradient Boosting Regressor | 8.43%   | 35.64  | 49.90 |
+| Basic SARIMAX               | 8.60%   | 36.95  | 51.23 |
+| Holt-Winters                | 10.82%  | 62.05  | 46.12 |
+| Prophet                     | 40.04%  | 12.03  | 9.04  |
 
 
 ##  Conclusion 
