@@ -1,0 +1,84 @@
+Date,day_name,special_event,forecast_calls,forecast_hours_off
+2025-01-01,Wednesday,New Year Day,195,363
+2025-02-17,Monday,Family Day,166,356
+2025-04-20,Sunday,Easter Sunday,160,342
+2025-04-21,Monday,Easter Monday,162,361
+2025-05-18,Sunday,Victoria Day Weekend,169,344
+2025-05-19,Monday,Victoria Day,178,377
+2025-06-11,Wednesday,,158,300
+2025-06-18,Wednesday,,159,300
+2025-06-25,Wednesday,,159,301
+2025-06-30,Monday,Canada Day Eve,173,352
+2025-07-01,Tuesday,Canada Day,191,403
+2025-07-02,Wednesday,,159,301
+2025-07-09,Wednesday,,160,302
+2025-07-16,Wednesday,,160,302
+2025-07-23,Wednesday,,160,303
+2025-07-30,Wednesday,,160,303
+2025-08-02,Saturday,August Long Weekend,163,345
+2025-08-03,Sunday,August Long Weekend,173,365
+2025-08-04,Monday,Civic Holiday,182,384
+2025-08-06,Wednesday,,161,304
+2025-08-13,Wednesday,,161,304
+2025-08-20,Wednesday,,161,305
+2025-08-27,Wednesday,,162,305
+2025-08-30,Saturday,Labour Day Weekend,164,347
+2025-08-31,Sunday,Labour Day Weekend,174,367
+2025-09-01,Monday,Labour Day,184,386
+2025-09-02,Tuesday,,156,303
+2025-09-03,Wednesday,,162,305
+2025-09-09,Tuesday,,156,303
+2025-09-10,Wednesday,,162,306
+2025-09-16,Tuesday,,156,304
+2025-09-17,Wednesday,,163,306
+2025-09-23,Tuesday,,156,304
+2025-09-24,Wednesday,,163,307
+2025-09-30,Tuesday,,157,305
+2025-10-01,Wednesday,,163,307
+2025-10-07,Tuesday,,157,305
+2025-10-08,Wednesday,,164,308
+2025-10-11,Saturday,Thanksgiving Weekend,166,365
+2025-10-12,Sunday,Thanksgiving Weekend,169,385
+2025-10-13,Monday,Thanksgiving,179,405
+2025-10-14,Tuesday,,157,305
+2025-10-15,Wednesday,,164,308
+2025-10-20,Monday,,156,300
+2025-10-21,Tuesday,,158,306
+2025-10-22,Wednesday,,164,309
+2025-10-27,Monday,,156,301
+2025-10-28,Tuesday,,158,306
+2025-10-29,Wednesday,,165,309
+2025-11-03,Monday,,156,301
+2025-11-04,Tuesday,,158,307
+2025-11-05,Wednesday,,165,309
+2025-11-10,Monday,,157,302
+2025-11-11,Tuesday,Remembrance Day,175,369
+2025-11-12,Wednesday,,165,310
+2025-11-17,Monday,,157,302
+2025-11-18,Tuesday,,159,308
+2025-11-19,Wednesday,,166,310
+2025-11-24,Monday,,157,302
+2025-11-25,Tuesday,,159,308
+2025-11-26,Wednesday,,166,311
+2025-12-01,Monday,,158,303
+2025-12-02,Tuesday,,160,309
+2025-12-03,Wednesday,,166,311
+2025-12-07,Sunday,,156,300
+2025-12-08,Monday,,158,303
+2025-12-09,Tuesday,,160,309
+2025-12-10,Wednesday,,167,312
+2025-12-14,Sunday,,156,300
+2025-12-15,Monday,,158,304
+2025-12-16,Tuesday,,160,309
+2025-12-17,Wednesday,,167,312
+2025-12-21,Sunday,,157,301
+2025-12-22,Monday,,159,304
+2025-12-23,Tuesday,,161,310
+2025-12-24,Wednesday,Christmas Eve,201,438
+2025-12-25,Thursday,Christmas Day,176,451
+2025-12-26,Friday,Boxing Day,167,411
+2025-12-27,Saturday,Christmas Week,170,386
+2025-12-28,Sunday,,157,301
+2025-12-29,Monday,,159,305
+2025-12-30,Tuesday,,161,310
+2025-12-31,Wednesday,New Year Eve 2025,201,407
