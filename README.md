@@ -190,4 +190,17 @@ Overall, **Grid Search SARIMAX was selected as the final forecasting model** bec
 | Prophet                     | 40.04%  | 12.03  | 9.04  |
 
 
-##  Conclusion 
+## Conclusion
+
+After forecasting with a grid search SARIMAX model, the key findings are:
+
+### Key Takeaways
+- Crime in York Region is forecasted to increase by ~3% YoY in 2025, with **District 1 at highest risk**, projected to rise ~5% YoY.  
+- **District 4** will face scheduling challenges, with ~83 days in 2025 where high officer absences coincide with high call demand.  
+- External factors such as holidays and unemployment trends influence both crime and staffing patterns; in District 4, officer absences cluster around civic holidays.
+
+### Recommended Next Steps
+- Prioritize resources and targeted interventions in District 1 to manage projected crime growth.  
+- Adjust staffing schedules in District 4 proactively to cover high-conflict days and maintain minimum shift coverage.  
+- Continue monitoring trends and incorporate external factors into planning for both crime prevention and workforce management.
+
